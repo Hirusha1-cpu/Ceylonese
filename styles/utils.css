@@ -1,0 +1,162 @@
+/* xs */
+/* @media (min-width: 475px) {
+   
+  } */
+  /* sm */
+  /* @media (min-width: 640px) {
+    
+  } */
+  /* md */
+  /* @media (min-width: 768px) {
+  
+  } */
+  /* lg */
+  /* @media (min-width: 1024px) {
+ 
+  } */
+  /* xl */
+  /* @media (min-width: 1280px) {
+
+  } */
+  /* 2xl */
+  /* @media (min-width: 1536px) {
+
+  } */
+  
+.btn {
+  display: inline-block;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--clr-light);
+  padding: 0.5em 1em;
+  letter-spacing: -0.04em;
+  border-radius: 4px;
+  transition: transform 0.4s;
+  font-size: var(--size-lg);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.gold {
+  background-color: var(--clr-gold);
+}
+.maroon {
+  background-color: var(--clr-maroon);
+}
+
+/* container */
+.container {
+  width: 100%;
+  margin-left: auto; 
+  margin-right: auto; 
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+
+}
+.fullcontainer{
+    width: 100%;
+  margin-left: auto; 
+  margin-right: auto; 
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+
+}
+
+/* section */
+.section {
+    margin-top: 5rem;
+
+}
+
+@media (max-width: 475px) {
+    .container {
+      max-width: 475px;
+    }
+    .fullcontainer{
+      max-width: 640px;
+    }
+    .btn{
+      font-size: var(--size-base);
+    }
+  }
+
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+  .fullcontainer{
+    max-width: 640px;
+  }
+  .btn{
+    font-size: var(--size-base);
+  }
+}
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+  .fullcontainer{
+    max-width: 754px;
+  }
+  .btn{
+    font-size: var(--size-base);
+  }
+}
+/* md */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .fullcontainer{
+    max-width: 1022px;
+  }
+  .btn{
+    font-size: var(--size-sm);
+  }
+}
+/* lg */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  .fullcontainer{
+    max-width: 1295px;
+  }
+  .btn{
+    font-size: var(--size-base);
+  }
+ 
+}
+/* xl */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+  .fullcontainer{
+    max-width: 1590px;
+  }
+  .btn{
+    font-size: var(--size-xl);
+  }
+  
+}
+/* 2xl */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+  .fullcontainer{
+    max-width: 1920px;
+  }
+  .btn{
+    font-size: var(--size-xl);
+  }
+}
