@@ -30,11 +30,12 @@
   text-align: center;
 }
 .chef__div-right {
-  width: 40%;
+  width:40%;
 }
 .chef__div-img {
-  height: 500px;
-  width: 500px;
+  height: 600px;
+  width: 600px;
+
 }
 
 /* xs */
@@ -50,6 +51,13 @@
   }
   .chef__div-left-text {
     width: 100%;
+    /* font-size: var(--size-base); */
+  }
+  .chef__div-left h2{
+    font-size: var(--size-xl);
+   }
+   .chef__div{
+    height:430px ;
   }
 }
 @media (min-width: 475px) {
@@ -64,6 +72,13 @@
   }
   .chef__div-left-text {
     width: 100%;
+    /* font-size: var(--size-base); */
+  }
+  .chef__div-left h2{
+    font-size: var(--size-2xl);
+   }
+   .chef__div{
+    height:430px ;
   }
 }
 /* sm */
@@ -76,6 +91,13 @@
   }
   .chef__div-left-text {
     width: 100%;
+    /* font-size: var(--size-base); */
+  }
+  .chef__div-left h2{
+    font-size: var(--size-3xl);
+   }
+   .chef__div{
+    height:430px ;
   }
 }
 /* md */
@@ -84,11 +106,31 @@
     display: block;
   }
   .chef__div-left-text {
-    width: 60%;
+    width: 40%;
+    font-size: var(--size-base);
   }
+  .chef__div{
+    height:430px ;
+  }
+  
   .chef__div-left h2{
    margin-left: 50px;
   }
+  .chef__div-right{
+    width: 60%; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+  
+  }
+  .chef__div-img {
+    height: 400px;
+    width: 600px;
+    
+  }
+  .chef__div-left h2{
+    font-size: var(--size-xl);
+   }
 
 }
 /* lg */
@@ -98,16 +140,39 @@
   }
   .chef__div-left-text {
     width: 60%;
+    font-size: var(--size-lg);
   }
+  .chef__div-img {
+    height: 600px;
+    width: 600px;
+    
+  }
+  .chef__div{
+    height:600px ;
+  }
+  .chef__div-left h2{
+    font-size: var(--size-3xl);
+   }
 }
 /* xl */
 @media (min-width: 1280px) {
   .chef__div-right {
     display: block;
+    /* width: 60%; */
   }
   .chef__div-left-text {
-    width: 60%;
+    width: 40%;
+    font-size: var(--size-lg);
   }
+  .chef__div-img {
+    height: 600px;
+    width: 600px;
+    
+  }
+  .chef__div-left h2{
+    font-size: var(--size-3xl);
+   }
+  
 }
 /* 2xl */
 @media (min-width: 1536px) {
@@ -116,5 +181,12 @@
   }
   .chef__div-left-text {
     width: 60%;
+    font-size: var(--size-xl);
+  }
+  .chef__div-left h2{
+    font-size: var(--size-3xl);
+   }
+  .chef__div{
+    height:600px ;
   }
 }

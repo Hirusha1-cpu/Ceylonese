@@ -1,6 +1,6 @@
 :root{
   --clr-dark:#020617;
-  --clr-light:#f8fafc;
+  --clr-light:#FFFFFF;
   --clr-gold:#FFCB74;
   --clr-maroon:#6F1A07;
   --clr-trans:rgb(0,0,0,0.5);
@@ -34,8 +34,9 @@ html{
 }
 
 body{
-  font-family: 'General Sans', sans-serif;
+  /* font-family: 'General Sans', sans-serif; */
   background-color: var(--clr-light);
+  font-family: 'Inter', sans-serif;
 
 }
 

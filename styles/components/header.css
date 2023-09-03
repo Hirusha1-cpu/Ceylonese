@@ -36,6 +36,7 @@
   align-items: center;
   font-size: var(--size-xl);
   position: relative;
+  color: var(--clr-light);
 }
 
 .header__menu {
@@ -169,7 +170,7 @@
     display: none;
   }
   .header__nav {
-    gap: 120px;
+    gap: 110px;
   }
   .btns {
     display: block;
@@ -230,7 +231,7 @@
 /* 2xl */
 @media (min-width: 1536px) {
   .header__nav {
-    gap: 500px;
+    gap: 495px;
   }
   .header__link {
     font-size: var(--size-lg);
