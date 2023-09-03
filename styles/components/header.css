@@ -21,6 +21,10 @@
 .header.sticky .header__link{
   color: var(--clr-gold);
 }
+.header.sticky .btns .btn:first-child{
+  background-color: var(--clr-dark);
+}
+
 
 
 .header__nav {
@@ -170,7 +174,7 @@
     display: none;
   }
   .header__nav {
-    gap: 110px;
+    gap: 100px;
   }
   .btns {
     display: block;

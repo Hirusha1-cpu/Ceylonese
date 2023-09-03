@@ -17,6 +17,10 @@
   font-size: var(--size-xl);
   color: var(--clr-light);
   margin: auto;
+  margin-right: -40px;
+}
+.chef__div-left h2{
+  /* margin-right: -140px; */
 }
 .chef__div-left-text {
   color: var(--clr-light);
@@ -24,6 +28,8 @@
   font-size: var(--size-lg);
   width: 60%;
   margin-top: 20px;
+  /* margin-right: -230px; */
+  
 }
 .chef__div-left-span {
   font-size: var(--size-6xl);
@@ -35,6 +41,7 @@
 .chef__div-img {
   height: 600px;
   width: 600px;
+  margin-left: 10px;
 
 }
 
@@ -51,10 +58,13 @@
   }
   .chef__div-left-text {
     width: 100%;
+    text-align: center;
+    
     /* font-size: var(--size-base); */
   }
   .chef__div-left h2{
     font-size: var(--size-xl);
+    text-align: center;
    }
    .chef__div{
     height:430px ;
@@ -73,9 +83,11 @@
   .chef__div-left-text {
     width: 100%;
     /* font-size: var(--size-base); */
+    text-align: center;
   }
   .chef__div-left h2{
     font-size: var(--size-2xl);
+    text-align: center;
    }
    .chef__div{
     height:430px ;
@@ -95,6 +107,10 @@
   }
   .chef__div-left h2{
     font-size: var(--size-3xl);
+    /* margin-right: -40px; */
+    /* padding-left: 30px; */
+    text-align: center;
+
    }
    .chef__div{
     height:430px ;
@@ -116,16 +132,22 @@
   .chef__div-left h2{
    margin-left: 50px;
   }
+  .chef__div-left{
+    margin-right: -230px;
+  }
   .chef__div-right{
     width: 60%; 
     display: flex;
     justify-content: flex-end;
     align-items: end;
+    
+   
   
   }
   .chef__div-img {
     height: 400px;
-    width: 600px;
+    width: 400px;
+    /* margin-left: -200px; */
     
   }
   .chef__div-left h2{
@@ -147,11 +169,16 @@
     width: 600px;
     
   }
+  .chef__div-left{
+    margin-right: -230px;
+  }
+  
   .chef__div{
     height:600px ;
   }
   .chef__div-left h2{
     font-size: var(--size-3xl);
+    margin-right: -20px;
    }
 }
 /* xl */
@@ -169,8 +196,12 @@
     width: 600px;
     
   }
+  .chef__div-left{
+    margin-right: -230px;
+  }
   .chef__div-left h2{
     font-size: var(--size-3xl);
+    /* margin-right: -140px; */
    }
   
 }
@@ -182,6 +213,9 @@
   .chef__div-left-text {
     width: 60%;
     font-size: var(--size-xl);
+  }
+  .chef__div-left{
+    margin-right: -230px;
   }
   .chef__div-left h2{
     font-size: var(--size-3xl);
