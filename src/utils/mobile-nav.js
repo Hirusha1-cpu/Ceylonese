@@ -3,6 +3,7 @@ const mobileNav = ()=>{
     const headerBtn = document.querySelector('.header__bars');
     const mobileNav = document.querySelector('.mobile-nav');
     const mobileLinks = document.querySelectorAll('mobile-nav__link');
+    const headerBtns = document.querySelector('.headerBtns ')
     // const close = document.querySelector('.header__close')
 
 
@@ -17,6 +18,7 @@ const mobileNav = ()=>{
             mobileNav.style.display = 'flex';
             // close.style.display = 'flex';
             headerBtn.style.display = 'flex';
+            headerBtns.style.display = "none"
 
             document.body.style.overflow = 'hidden';
 
@@ -24,6 +26,7 @@ const mobileNav = ()=>{
             mobileNav.style.display = 'none';
             close.style.display = 'none';
             document.body.style.overflow = 'auto';
+            headerBtns.style.display = "flex"
         }
     })
 
