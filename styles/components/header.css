@@ -20,10 +20,11 @@
 }
 .header.sticky {
   background-color: var(--clr-maroon);
+  transition-duration: 0.8s;
 }
 .header.sticky .btns .btnsDiv p{
   display: none;
-  transition: 0.5s;
+  
 }
 
 .header.sticky .header__link {
