@@ -20,8 +20,7 @@
 }
 .header.sticky {
   background-color: var(--clr-maroon);
-  transition-duration: 0.8s;
-  transition: transform 1s;
+  
 }
 .header.sticky .btns .btnsDiv div{
   display: none;
