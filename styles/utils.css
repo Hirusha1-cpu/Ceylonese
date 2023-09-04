@@ -104,7 +104,7 @@
     max-width: 640px;
   }
   .fullcontainer{
-    max-width: 754px;
+    max-width: 764px;
   }
   .btn{
     font-size: var(--size-base);
@@ -128,7 +128,7 @@
     max-width: 1024px;
   }
   .fullcontainer{
-    max-width: 1295px;
+    max-width: 1265px;
   }
   .btn{
     font-size: var(--size-base);
@@ -141,7 +141,7 @@
     max-width: 1280px;
   }
   .fullcontainer{
-    max-width: 1590px;
+    max-width: 1610px;
   }
   .btn{
     font-size: var(--size-xl);
