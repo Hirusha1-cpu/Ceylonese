@@ -120,7 +120,7 @@ body{
 
 @media (max-width: 475px) {
     .slider{
-        margin-top: 50px;
+        margin-top: 40px;
     }
     .slider .list .item img {
     width: 100%;
@@ -130,7 +130,7 @@ body{
   }
 @media (min-width: 475px) {
     .slider{
-        margin-top: 50px;
+        margin-top: 40px;
     }
     .slider .list .item img {
     width: 100%;
@@ -142,7 +142,7 @@ body{
   /* sm */
   @media (min-width: 640px) {
     .slider{
-        margin-top: 50px;
+        margin-top: 40px;
     }
     .slider .list .item img {
     width: 100%;
