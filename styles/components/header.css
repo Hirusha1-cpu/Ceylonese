@@ -12,6 +12,7 @@
   margin-top: -34px;
   flex-direction: column;
   padding-bottom: 50px;
+  transition: background-color 0.8s;
 
   /* width: 0000px; */
 }
@@ -20,14 +21,20 @@
 }
 .header.sticky {
   background-color: var(--clr-maroon);
+  transition: background-color 0.8s;
   
+}
+.header .btns .btnsDiv div {
+  /* display: block;  */
+  transition: display 0.8s; 
 }
 .header.sticky .btns .btnsDiv div{
   display: none;
+  transition: display 0.8s; 
   
 }
 .header.sticky .btns .btnsDiv{
-  margin-top: 10px;
+  margin-top: 3px;
 }
 
 .header.sticky .header__link {

@@ -290,7 +290,7 @@ svg {
 @media (min-width: 1536px) {
   
   .footer {
-    height: 320px;
+    height: 300px;
   }
   .footer__links {
     display: flex;
