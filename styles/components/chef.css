@@ -80,6 +80,7 @@
   }
   .chef__div-left {
     margin: auto;
+    width: 100%;
    
   }
   .chef__div {
@@ -104,6 +105,7 @@
   }
   .chef__div-left {
     margin: auto;
+    
   }
   .chef__div-left-text {
     width: 100%;
