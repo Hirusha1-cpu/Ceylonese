@@ -58,6 +58,7 @@
   }
   .chef__div-left {
     margin: auto;
+    width: 100%;
   }
   .chef__div {
     height: 700px;
