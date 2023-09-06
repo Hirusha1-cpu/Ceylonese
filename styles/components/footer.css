@@ -146,6 +146,9 @@ svg {
   .footer__links-header {
     font-weight: bolder;
   }
+  .footer__links-links1{
+    align-items: center;
+  }
   .footer__logo-img {
     height: 100px;
     width: 100px;
@@ -175,6 +178,9 @@ svg {
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .footer__links-links1{
+    align-items: center;
   }
   .footer__links-header {
     font-weight: bolder;
@@ -212,6 +218,7 @@ svg {
   }
   .footer__links-links1{
     align-items: center;
+    /* align-items: flex-start; */
   }
   .footer__links-header {
     font-weight: bolder;
@@ -251,6 +258,9 @@ svg {
     width: 10%;
     margin-top: 4px;
     margin-left: 20px;
+  }
+  .footer__links-links1{
+    align-items: flex-start;
   }
   .footer__links-links {
     align-items: flex-start;
@@ -294,6 +304,9 @@ svg {
   .footer__links-links {
     align-items: flex-start;
   }
+  .footer__links-links1{
+    align-items: flex-start;
+  }
   .footer__links-header {
     align-items: flex-start;
     font-weight: bolder;
@@ -324,6 +337,9 @@ svg {
   }
 
   .footer__links-links {
+    align-items: flex-start;
+  }
+  .footer__links-links1{
     align-items: flex-start;
   }
   .footer__links-header {
@@ -363,6 +379,7 @@ svg {
   }
   .footer__links-links1{
     margin-bottom: 10px;
+    align-items: flex-start;
   }
 
   .footer__links-header {
