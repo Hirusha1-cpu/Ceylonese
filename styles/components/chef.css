@@ -349,7 +349,7 @@
   .chef__div-middle-sign-div {
     gap: 460px;
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .chef__div-left {
@@ -359,7 +359,7 @@
     width: 130%;
     font-size: var(--size-xl);
     margin-bottom: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
   .chef__div-middle {
     /* margin-right: -130px; */

@@ -87,6 +87,8 @@
   display: flex;
   align-items: center;
   font-size: var(--size-xl);
+  font-family: Kenyan Coffee;
+  line-height: 1.5;
   position: relative;
   color: var(--clr-light);
   margin-top: 10px;
