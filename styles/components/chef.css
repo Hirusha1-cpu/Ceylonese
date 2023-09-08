@@ -354,6 +354,7 @@
 
   .chef__div-left {
     display: block;
+    width: 50%;
   }
   .chef__div-middle-text {
     width: 130%;
@@ -364,11 +365,11 @@
   .chef__div-middle {
     /* margin-right: -130px; */
     width: 1200px;
-    margin-left: -170px;
+    margin-left: -30px;
     margin-top: 50px;
     width: 50%;
-    padding-left: 50px;
-    padding-right: 10px;
+    padding-left: 60px;
+    padding-right: 20px;
   }
   .chef__div-img1 {
     height: 600px;
@@ -382,7 +383,7 @@
     /* margin-right: 90px; */
     /* padding-right: 100px; */
     /* width: 50%; */
-    margin-left: 150px;
+    margin-left: 190px;
   }
   .chef__div-middle h2 {
     font-size: var(--size-3xl);
